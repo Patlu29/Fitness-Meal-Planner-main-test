@@ -30,4 +30,4 @@ jobs:
         run: pytest --version
 
       - name: Run backend tests
-        run: pytest
+        run: pytest backend/tests/
